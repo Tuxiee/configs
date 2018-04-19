@@ -1,0 +1,59 @@
+! Colors
+! URxvt*background: #000000
+URxvt.cursorBlink:	true
+!URxvt.underlineColor: yellow
+ urxvt*foreground: #D3D3D3
+
+! Transparency
+! urxvt*depth:		32
+! urxvt*background:	rgba:0000/0000/0200/c800
+urxvt.transparent:	true
+urxvt*shading: 45
+
+! Scrollbar
+URxvt.scrollBar:	false
+
+! font
+!Urxvt.font:		xft:DejaVu Sans Mono:pixelsize=12:antialias=true
+!Urxvt.boldFont:	xft.DejaVu Sans Mono:Bold:Pixelsize=12:antialias=true
+
+URxvt.font:		-xos4-terminus-*-*-*-*-16-*-*-*-*-*-*-*
+URxvt.boldFont:		-xos4-terminus-bold-*-*-*-16-*-*-*-*-*-*-*
+!xft:terminus-font:Bold:Pixelsize=12:antialias=false
+
+
+URxvt*saveLines : 999999 
+
+! Clickable URLs
+URxvt.perl-ext-common:	default,matcher
+URxvt.url-launcher:		/usr/bin/firefox
+URxvt.matcher.button:	1
+
+
+! beeping
+URxvt.urgentOnBell: True
+
+! Black + DarkGrey
+*color0:  #282828
+*color8:  #928374
+! DarkRed + Red
+*color1:  #cc241d
+*color9:  #fb4934
+! DarkGreen + Green
+*color2:  #98971a
+*color10: #b8bb26
+! DarkYellow + Yellow
+*color3:  #d79921
+*color11: #fabd2f
+! DarkBlue + Blue
+*color4:  #458588
+*color12: #83a598
+! DarkMagenta + Magenta
+*color5:  #b16286
+*color13: #d3869b
+! DarkCyan + Cyan
+*color6:  #689d6a
+*color14: #8ec07c
+! LightGrey + White
+*color7:  #a89984
+*color15: #ebdbb2
